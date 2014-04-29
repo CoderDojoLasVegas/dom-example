@@ -127,3 +127,11 @@ ls
 rm test.js
 ls
 exit
+cd dom-example
+ls
+node app
+ls
+exit
+ls
+vim test.js
+exit
