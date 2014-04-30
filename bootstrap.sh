@@ -5,9 +5,10 @@ apt-get install -y python-software-properties
 apt-add-repository ppa:chris-lea/node.js
 apt-get update
 apt-get install -y nodejs
+apt-get install -y libfontconfig
 npm update
-npm install -g phantomjs
 npm install -g casperjs
+npm install -g phantomjs
 npm install -g express
 npm install -g express-generator
 npm install -g bower

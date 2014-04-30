@@ -6,20 +6,26 @@ block content
   div
     h2.
       DOM-HTML Way
-    input(
-      type="text"
-      id="dom-number-input"
-      placeholder="Enter Positive Enter"
+    form(
+      id='dom-form'
     )
-    input(
-      type="text"
-      id="dom-phrase-input"
-      placeholder="Enter Catch Phrase"
-    )
-    button(
-      type="button"
-    ).
-      Execute DOM
+      input(
+        type="text"
+        id="dom-number-input"
+        name="dom-number-input"
+        placeholder="Enter Positive Enter"
+      )
+      input(
+        type="text"
+        id="dom-phrase-input"
+        name="dom-pharase-input"
+        placeholder="Enter Catch Phrase"
+      )
+      button(
+        type="button"
+        id="dom-click"
+      ).
+        Execute DOM
     div
     ul(
       id="dom-list"
@@ -28,21 +34,25 @@ block content
   div
     h2.
       DOM the JQuery Way
-    input(
-      type="text"
-      id="jq-number-input"
-      placeholder="Enter Positive Enter"
+    form(
+      id='jquery-form'
     )
-    input(
-      type="text"
-      id="jq-phrase-input"
-      placeholder="Enter Catch Phrase"
-    )
-    button(
-      type="button"
-    ).
-      Execute JQuery
+      input(
+        type="text"
+        id="jq-number-input"
+        placeholder="Enter Positive Enter"
+      )
+      input(
+        type="text"
+        id="jq-phrase-input"
+        placeholder="Enter Catch Phrase"
+      )
+      button(
+        type="button"
+        id="jq-click"
+      ).
+        Execute JQuery
     div
       ul(
-        id="JQ-list"
+        id="jq-list"
       )
